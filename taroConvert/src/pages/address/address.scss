@@ -1,0 +1,40 @@
+page {
+  background: #efeff4;
+}
+
+/* pages/address/address.wxss */
+
+.container {
+  font-size: 24px;
+  background-color: white;
+}
+
+.section {
+  height: 100px;
+  border-bottom: 2px lightgrey solid;
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.btn-area {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 90%;
+  position: fixed;
+  bottom: 40px;
+  color: #fff;
+  background-color: #fc0;
+}
+
+.picker {
+  width: 600px;
+  height: 100%;
+}
+.ww{
+  width: 500px;
+}
+

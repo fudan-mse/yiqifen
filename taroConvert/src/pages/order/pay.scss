@@ -1,0 +1,139 @@
+.item .cp_photo{ 
+    width: 120px; 
+    height: 120px;
+    overflow: hidden; 
+    border-radius: 6px; 
+    margin-right: 20px;
+}
+.item .cp_photo image{ 
+    width: 120px; 
+    height: 120px;
+}
+.gm_ovh_2h{
+    line-height:50px; 
+    height: 100px; 
+    margin:0; 
+    overflow:hidden;  
+    text-overflow:ellipsis; 
+    display:-webkit-box; 
+    -webkit-line-clamp:2;  
+    -webkit-box-orient:vertical; 
+    font-size: 32px;
+}
+.gm_ovh_1h{
+    line-height:50px; 
+    height: 50px; 
+    margin:0; 
+    overflow:hidden;  
+    text-overflow:ellipsis; 
+    display:-webkit-box; 
+    -webkit-line-clamp:2;  
+    -webkit-box-orient:vertical; 
+    font-size: 32px;
+} 
+.h10_hui{
+    height: 20px;
+    width: 100%;
+    background: #eee;
+}
+
+.min_60{
+    min-height: 120px;
+}
+
+.w100{ width: 100%}
+
+.iconWarn{
+   vertical-align:top;padding-right:4px;
+}
+
+.iconClear{
+  float:right;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right:20px;
+  margin-top:-72px;
+  height: 56px;
+}
+
+.inputStyle{
+  height: 72px;
+  line-height: 72px;
+  padding-left: 4px;
+  width:80%;
+}
+
+.tips{
+  margin-bottom:20px;
+}
+.x_right{
+    width:32px;
+    height: 36px;
+    display:inline-block; 
+    vertical-align: middle;
+    float: right; 
+}
+.zhifu{
+    background: #fff;
+    margin-bottom: 2px;
+    padding: 4%;
+    width: 92%;
+    font-size: 28px;
+    color: #666;
+}
+.zhifu .title {
+    display: inline-block;
+    font-size: 34px;
+    color: #111;
+    margin-bottom: 30px;
+}
+.font_20{
+    font-size: 40px;
+    font-weight: bold;
+}
+.xx_pay_submit{
+  margin-top: 20px;
+}
+.gms_view{  
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+}
+.gms_view navigator{
+    border: 2px solid #ddd;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #666;
+    font-size: 24px;
+    text-align: center;
+    line-height: 44px;
+    float: right;
+    font-weight: bold;
+    
+}
+.gms_view input{
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 24px;
+    width: 60px;
+    margin: 0 10px;
+    text-align: center;
+    color: #999;
+    float: right;
+}
+.che{
+    border-radius:50% ;
+    width: 40px;
+    height: 40px;
+}
+
+.xuan{
+    padding: 10px 0;
+    font-size: 30px;
+}
+.wx_pay_submit {
+    background: #123a72;
+    color: #FFF;
+}

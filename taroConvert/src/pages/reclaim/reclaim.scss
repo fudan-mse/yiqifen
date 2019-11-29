@@ -1,0 +1,48 @@
+.reclaim {
+  background: #f6f6f6;
+  justify-content: start;
+}
+.swiper-wapper {
+  width: 100%;
+  height: 350px;
+}
+.slide-image {
+  height: 350px;
+  width:100%;
+}
+.category {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30px;
+  margin-top: 40px;
+}
+.category .type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  width: 48%;
+  background: #fff;
+  border-radius: 16px;
+}
+.category navigator.type {
+  width: 100%;
+}
+.category .type image {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+.category .phone.type image {
+  width: 70px;
+  height: 70px;
+}
+.type-text {
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

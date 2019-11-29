@@ -1,0 +1,79 @@
+/* pages/order/downline.wxss */
+
+.w100{ width: 100%}
+.p_all{
+    background: #fff;
+    width: 92%;
+    padding:2% 4%;
+    color: #666;
+    font-size: 28px;
+    display: block;
+    line-height: 50px;
+}
+.p_all01{
+    width: 92%;
+    padding:4%;
+    color: #666;
+    font-size: 28px;
+    display: block;
+    line-height: 50px;
+}
+.p_all text{
+    width: 100%;
+    display: block;
+}
+.iconWarn{
+   vertical-align:top;padding-right:4px;
+}
+
+.iconClear{
+  float:right;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right:20px;
+  margin-top:-72px;
+  height: 56px;
+}
+
+.inputStyle{
+  height: 72px;
+  line-height: 72px;
+  padding-left: 4px;
+  border:2px solid #ddd;
+  border-radius: 6px;
+}
+
+.tips{
+  margin-bottom:20px;
+}
+.x_right{
+    width:32px;
+    height: 36px;
+    display:inline-block; 
+    vertical-align: middle;
+    float: right; 
+}
+.zhifu{
+    background: #fff;
+    margin-bottom: 2px;
+    padding: 4%;
+    width: 92%;
+    font-size: 28px;
+    color: #666;
+}
+
+.page{
+    width: 92%;
+    padding: 4%;
+    font-size: 28px;
+}
+.zhuc{
+    line-height: 80px;
+    border-bottom: 2px solid #eee;
+}
+.mr10{
+    margin-right: 20px;
+}
+.pl10{
+   padding-left: 20px;
+}

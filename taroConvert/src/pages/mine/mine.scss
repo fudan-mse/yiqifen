@@ -1,0 +1,109 @@
+/**index.wxss**/
+.container.mine {
+  background: #f6f6f6;
+  justify-content: start;
+}
+.tc {
+  text-align: center;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+}
+
+.userinfo-avatar {
+  width: 128px;
+  height: 128px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #333;
+}
+
+.usermotto {
+  margin-top: 400px;
+}
+.jifen {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 70px 0;
+}
+.jifen .action-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.jifen .bind {
+  display: flex;
+  color: #fff;
+  background: #123a72;
+  height: 60px;
+  line-height: 60px;
+  font-size: 26px;
+  box-sizing: border-box;
+  margin: 0;
+  margin-left: 30px;
+}
+.bind.has {
+  background: #ccc;
+  color: #333;
+}
+.order {
+  background: #fff;
+  margin-top: 20px;
+}
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ccc;
+  border-top: 2px solid #ccc;
+}
+.order-header .left {
+  font-size: 30px;
+}
+.order-header .right {
+  color: #666;
+  font-size: 24px;
+}
+.order-type {
+  width: 100%;
+  display: flex;
+  padding: 40px 0;
+}
+.order-type-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  flex-direction: column;
+}
+.order-type image{
+  width: 60px;
+  height: 60px;
+}
+.order-type text {
+  font-size: 26px;
+}
+.address navigator{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin-top: 30px;
+  font-size: 30px;
+  padding: 0 40px;
+  background: #fff;
+}
