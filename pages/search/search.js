@@ -14,7 +14,7 @@ Page({
     var self = this;
     console.log(app.d.point);
     app.d.point = app.d.point + 1;
-    wx.showLoading({ title: '加载中……' })
+    wx.showLoading({ title: '正在加载中……' })
     wx.request({
       // url: app.d.yiqifen + '/share/a/share/api/queryGarbage?openId=1234567&name=' + e.detail.value,
       url: app.d.uniheart + '/proxy?url=https://laji.lr3800.com/api.php?name=' + e.detail.value,

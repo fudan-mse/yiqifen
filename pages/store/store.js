@@ -31,7 +31,7 @@ Page({
     },
     alertValid2: function () {
         wx.showToast({
-            title: '暂未开放',
+            title: '敬请期待',
             icon: 'none',
             duration: 2000,
             success: function () {
