@@ -30,7 +30,7 @@ function loadData(type) {
   const self = this;
   wx.showLoading({ title: '正在加载中……', })
   wx.request({
-    url: app.d.yiqifen + '/share/a/share/api/queryGarbage?type=' + WasteSorting[type],
+    url: app.d.uniheart + '/proxy?url=' + encodeURIComponent(app.d.yiqifen + '/share/a/share/api/queryGarbage?type=' + WasteSorting[type]),
     success(res) {
       self.setData({
         ...self.data,
