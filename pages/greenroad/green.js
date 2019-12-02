@@ -29,8 +29,8 @@ Page({
     const self = this;
 
     wx.showModal({
-      title: '一键申请花旗信息卡',
-      content: '如果您点击确定，即使用您在本应用中的信息自动为您申请一张花旗信息卡。',
+      title: '一键申请信用卡',
+      content: '如果您点击确定，即使用您在本应用中的信息自动为您申请一张信用卡。',
       showCancel: true,
       cancelText: '取消',
       cancelColor: '#666',
